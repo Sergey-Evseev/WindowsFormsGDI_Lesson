@@ -16,6 +16,8 @@ namespace WindowsFormsGDI_Lesson
         public Form1()
         {
             InitializeComponent();
+            this.Text = "FONT";
+
             Paint += Form1_Paint;
         }
 
@@ -26,7 +28,7 @@ namespace WindowsFormsGDI_Lesson
 
             Font f = new Font("Verdana", 14, FontStyle.Bold | FontStyle.Italic);
             g.DrawString("Hello Font", f, Brushes.Blue, 30, 50);        
-            g.DrawString("Hello Font", f, Brushes.Blue, 30, 70);        
+            g.DrawString("Hello Font", f, Brushes.Lime, 30, 70);        
             
             g.Dispose();
         }
