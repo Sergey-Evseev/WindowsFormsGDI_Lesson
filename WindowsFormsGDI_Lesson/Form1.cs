@@ -16,7 +16,7 @@ namespace WindowsFormsGDI_Lesson
         public Form1()
         {
             InitializeComponent();
-            this.Text = "FONT";
+            this.Text = "IMAGE";
 
             Paint += Form1_Paint;
         }
@@ -25,11 +25,12 @@ namespace WindowsFormsGDI_Lesson
         {
             Graphics g = e.Graphics; //объект Graphics использует методы для отображения
                                      //изображения на экране
-
-            Font f = new Font("Verdana", 14, FontStyle.Bold | FontStyle.Italic);
-            g.DrawString("Hello Font", f, Brushes.Blue, 30, 50);        
-            g.DrawString("Hello Font", f, Brushes.Lime, 30, 70);        
-            
+            Rectangle rect = this.ClientRectangle;//get rectangle that represents 
+                                                  //client area of the control (в данном случае формы)
+                                                              
+            Image im = new Bitmap("Cat.bmp"); // Initializes a new instance
+            // of the System.Drawing.Bitmap class from the specified file
+            g.DrawImage (im, rect);
             g.Dispose();
         }
     }
