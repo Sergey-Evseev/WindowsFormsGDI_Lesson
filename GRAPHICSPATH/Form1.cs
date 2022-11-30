@@ -42,7 +42,6 @@ namespace GRAPHICSPATH
             path2.CloseFigure(); //соединяем концы фигуры
             g.DrawPath(new Pen(Color.CornflowerBlue, 4), path2); //обводим фигуру
             
-
             g.Dispose();
 
         }
