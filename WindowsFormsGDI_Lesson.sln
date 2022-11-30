@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IMAGE", "WindowsFormsGDI_Le
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "REGION", "REGION\REGION.csproj", "{F235BBD1-6671-4B36-9C2A-1267F32BCF18}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GRAPHICSPATH", "GRAPHICSPATH\GRAPHICSPATH.csproj", "{01584689-480A-4DAA-AD2B-2ACC7BDD32FF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{F235BBD1-6671-4B36-9C2A-1267F32BCF18}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F235BBD1-6671-4B36-9C2A-1267F32BCF18}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F235BBD1-6671-4B36-9C2A-1267F32BCF18}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01584689-480A-4DAA-AD2B-2ACC7BDD32FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01584689-480A-4DAA-AD2B-2ACC7BDD32FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01584689-480A-4DAA-AD2B-2ACC7BDD32FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01584689-480A-4DAA-AD2B-2ACC7BDD32FF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
