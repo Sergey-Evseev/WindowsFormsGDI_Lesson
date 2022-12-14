@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.4.33110.190
+# Visual Studio 15
+VisualStudioVersion = 15.0.33026.149
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IMAGE", "WindowsFormsGDI_Lesson\IMAGE.csproj", "{5BEBC6D3-BA51-43CD-9E8B-53BF6A19F4F4}"
 EndProject
@@ -14,6 +14,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GRAPHICS_EXAMPLE", "GRAPHICS_EXAMPLE\GRAPHICS_EXAMPLE.csproj", "{FC583E94-5C3D-4618-B371-9A960AB8EC46}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GRAPHICS_EXAMPLE2", "GRAPHICS_EXAMPLE2\GRAPHICS_EXAMPLE2.csproj", "{7FE9FF60-E71E-47F2-A03F-E1F7D4DD00F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DrawMethods", "DrawMethods\DrawMethods.csproj", "{6D91E863-6148-483C-B290-EA83EE371B43}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{7FE9FF60-E71E-47F2-A03F-E1F7D4DD00F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7FE9FF60-E71E-47F2-A03F-E1F7D4DD00F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7FE9FF60-E71E-47F2-A03F-E1F7D4DD00F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D91E863-6148-483C-B290-EA83EE371B43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D91E863-6148-483C-B290-EA83EE371B43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D91E863-6148-483C-B290-EA83EE371B43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D91E863-6148-483C-B290-EA83EE371B43}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

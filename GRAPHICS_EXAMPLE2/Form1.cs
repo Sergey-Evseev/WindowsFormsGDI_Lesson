@@ -17,10 +17,9 @@ namespace GRAPHICS_EXAMPLE2
         {
             InitializeComponent();
             buttonSave.Click += buttonSave_Click;
-
-            //this.Paint += Form1_Paint2;
+                                    
+            this.Paint += Form1_Paint2;
             this.Paint += Form1_Paint;
-            
         }
 
         //получение объекта Graphics с помощью объекта Image 
@@ -39,10 +38,10 @@ namespace GRAPHICS_EXAMPLE2
                 //измеряем строку методом MeasureString
                 SizeF sz = gFromImage.MeasureString(helloStr, f);
 
-                //пишем строку в координатах 10 10
+                //на объекте пишем строку в координатах 10 10
                 gFromImage.DrawString(helloStr, f, Brushes.Aqua, 10, 10);
 
-                //рисуем прямоугольник размером с текст в координатах 10 10
+                //на объекте рисуем прямоугольник размером с текст в координатах 10 10
                                        //(Pen pen), float X, float Y, float width, float height                                       
                 gFromImage.DrawRectangle(new Pen(Color.Red, 3), 10.0F, 10.0F, sz.Width, sz.Height);
                 //сохраняем новое изображение на диск
@@ -54,7 +53,7 @@ namespace GRAPHICS_EXAMPLE2
                 //в габаритах и локацией рисунка
                 this.Invalidate(regionRec);
             }
-            catch { }            
+            catch { }
         }
 
         //обработчик события Paint
@@ -70,6 +69,7 @@ namespace GRAPHICS_EXAMPLE2
             }
             catch { }
         }
+
         //просто моя отрисовка по заданным параметрам
         private void Form1_Paint2(object sender, PaintEventArgs e)
         {
@@ -80,9 +80,9 @@ namespace GRAPHICS_EXAMPLE2
             Font f = new Font("Times New Roman", 40, FontStyle.Bold | FontStyle.Italic);
             //создаем надпись
             string helloStr = "Kate My Love";
-                  
-            g.DrawImage(myBitmap, this.ClientRectangle);
-            g.DrawString(helloStr, f, Brushes.DarkOrchid, 200, 10);
+
+            g.DrawImage(myBitmap, 0, 0, 600, 400);
+            g.DrawString(helloStr, f, Brushes.DarkOrchid, 100, 10);
         }
     }
 }
